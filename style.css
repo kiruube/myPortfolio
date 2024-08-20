@@ -278,12 +278,12 @@ form button:hover {
     }
 
     form label, form input, form textarea {
-        width: 100%;
+        width: calc(100% - 20px);
         margin-bottom: 10px;
     }
 
     form button {
-        width: 100%;
+        width: calc(100% - 20px);
     }
 }
 
