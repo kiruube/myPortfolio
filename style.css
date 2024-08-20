@@ -41,6 +41,13 @@ nav ul li a:hover {
     color: #e74c3c;
 }
 
+/* responsive design */
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
 /* Hero Section */
 .hero {
     background-color: #2d3436;
@@ -272,9 +279,9 @@ form button:hover {
 
 /* Responsive Design */
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
     form {
-        width: 100%;
+        width: calc(100% - 20px)
     }
 
     form label, form input, form textarea {
