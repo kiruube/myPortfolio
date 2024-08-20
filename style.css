@@ -8,18 +8,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Responsive Design */
-
-@media only screen and (max-width: 320px) {
-    body {
-        font-size: 16px;
-    }
-
-    nav ul li {
-        margin: 20px 0;
-    }
-}
-
 nav {
     background-color: #2c3e50;
     padding: 15px 0;
@@ -54,13 +42,14 @@ nav ul li a:hover {
 }
 
 /* Responsive Design for Navigation */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;
         align-items: center;
     }
     nav ul li {
-        margin: 20px 0;
+        margin: 10px 0;
+        width: 100%;
     }
 }
 
@@ -91,23 +80,6 @@ nav ul li a:hover {
 .hero p {
     font-size: 1.25rem;
     margin-bottom: 30px;
-}
-
-/* Responsive design */
-
-@media only screen and (max-width: 320px) {
-   .hero {
-        padding: 20px;
-    }
-   .hero-content {
-        text-align: left;
-    }
-   .hero h1 {
-        font-size: 2rem;
-    }
-   .hero p {
-        font-size: 1rem;
-    }
 }
 
 .profile-image {
