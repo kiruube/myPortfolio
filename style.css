@@ -272,7 +272,7 @@ form button:hover {
 
 /* Responsive Design */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     form {
         width: 100%;
     }
