@@ -41,10 +41,14 @@ nav ul li a:hover {
     color: #e74c3c;
 }
 
-/* responsive design */
-@media only screen and (max-width: 768px) {
+/* Responsive Design for Navigation */
+@media only screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
     nav ul li {
-        margin: 0 10px;
+        margin: 10px 0;
     }
 }
 
